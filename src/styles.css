@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+}
+
+.app {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #7b8794;
+}
+
+.add-book {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.add-book h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.fields {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.field {
+  flex: 1;
+  min-width: 140px;
+  padding: 8px 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #3e7bfa;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #2f66d6;
+}
+
+.error {
+  color: #d64545;
+  font-size: 13px;
+  margin: 10px 0 0;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-card {
+  background: #fff;
+  padding: 14px 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-title {
+  font-weight: 600;
+}
+
+.book-author {
+  color: #7b8794;
+  font-size: 14px;
+}
+
+.empty {
+  color: #7b8794;
+}
